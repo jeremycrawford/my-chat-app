@@ -29,7 +29,7 @@
         <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
           <div class="container">
             <button class="btn join-btn btn-md pull-right" data-toggle="modal" data-target="#myModal">
-              SIGN IN
+              SIGN UP
             </button>
             <div class="title-text-div">
                 <h3 class="text-muted">Tekisuto</h3>
@@ -70,16 +70,17 @@
                     <div class="modal-dialog">
                     <div class="modal-content">
                     <div class="modal-header">
+                        <h3 class="sign-in-title">Sign In</h3>
                         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
                     </div>
                     <div class="modal-body">
                         <div class="input-group input-group-sm username-area">
-                            <input class="form-control username js-username" placeholder="Enter User Name" type="text">
+                            <input class="form-control js-username username-enter" placeholder="Enter User Name" type="text">
                         </div>
                     </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary add-album-button" data-dismiss="modal">Save changes</button>
+                    <div class="modal-footer my-modal-footer">
+                        <button type="button" class="btn btn-primary add-album-button submit-button" data-dismiss="modal">Submit</button>
+                        <button type="button" class="btn btn-default cancel-button" data-dismiss="modal">Cancel</button>
                     </div>
                     </div>
                 </div>

@@ -78,9 +78,32 @@ body {
     border-bottom: 0px solid #e5e5e5;
     background-color: rgb(92, 155, 135);
     border-radius: 4px 4px 0 0;
-    padding: 8px;
-    min-height: 35px;
+    padding: 0px;
+    min-height: 45px;
     height: 24px;
+
+    .sign-in-title {
+        letter-spacing: 1px;
+        color: white;
+        font-size: 19px;
+        font-weight: 100;
+        text-transform: uppercase;
+        display: inline-block;
+        padding: 0px 0px 0px 80px;
+        margin: 0px;
+    }
+
+    .close {
+        padding: 10px;
+        float: right;
+        font-size: 24px;
+        font-weight: 100;
+        line-height: 1;
+        color: white;
+        opacity: 0.8;
+        text-shadow: none;
+        filter: alpha(opacity=20);
+    }
 }
 
 .modal-body {
@@ -92,35 +115,45 @@ body {
     height: 35px;
     width: 200px;
 
-    .username {
-        border-radius: 4px;
+    .username-enter {
+        border-radius: 2px;
         width: 208px;
         height: 38px;
     }
 }
 
-.close {
-    float: right;
-    font-size: 24px;
-    font-weight: 100;
-    line-height: 1;
-    color: black;
-    opacity: 0.8;
-    text-shadow: none;
-    filter: alpha(opacity=20);
+.my-modal-footer {
+    margin-top: 0px;
+    border-top: 0px solid #e5e5e5;
+    padding: 0px 10px 10px 5px;
+    text-align: right;
 }
 
-.modal-footer {
+.submit-button {
+    border-radius: 2px;
+    margin-left: -10px;
+    width: 208px;
+    height: 38px;
+    background-color: white;
+    border-color: white;
+    color: rgb(92, 155, 135);
+}
+
+.cancel-button {
     margin-top: 15px;
-    border-top: 0px solid #e5e5e5;
-    padding: 19px 20px 20px;
-    text-align: right;
+    border-radius: 2px;
+    margin-left: -10px;
+    width: 208px;
+    height: 38px;
+    background-color: white;
+    border-color: white;
+    color: #5c9b87;
 }
 
 .modal-content {
     width: 230px;
     position: relative;
-    background-color: rgb(68, 68, 68);
+    background-color: rgba(68, 68, 68, .9);
     border-radius: 6px;
     box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
     background-clip: padding-box;
