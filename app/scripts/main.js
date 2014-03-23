@@ -8,7 +8,7 @@ $(document).ready(function(){
     success: function(){
       profile.each(function(message){
         new MessageView({model: message});
-        $('.full-list').scrollTop($('.full-list')[0].scrollHeight);
+        $('.js-full-list').scrollTop($('.js-full-list')[0].scrollHeight);
       })
     },
 
@@ -18,9 +18,12 @@ $(document).ready(function(){
   });
 
 
- newUser = $('.add-album-button').click(function(){
+ newUser = "Steve"
 
- $('.js-username').val()
+ $('.add-album-button').click(function(){
+
+ newUser = $('.js-username').val()
+ 
  });
 
 

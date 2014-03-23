@@ -1,4 +1,9 @@
+// This is our view that will be renedered on our page.
+
 var MessageView = Backbone.View.extend({
+
+  tagName: "div", // This does nothing because already happens by default
+
   className: 'new-message',
 
   createTemplate: _.template($('#message-list-template').text()),
