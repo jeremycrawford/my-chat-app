@@ -2,7 +2,7 @@ console.log('This is our chat app!');
 
 $(document).ready(function(){
 
-  profile = new ProfileCollection();
+  profile = new ProfileCollection()
 
   profile.fetch({
     success: function(){
