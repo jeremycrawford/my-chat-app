@@ -226,6 +226,41 @@ body {
     overflow: scroll;
 }
 
+.user-text {
+    margin-left: 200px;
+    margin-top: 10px;
+    margin-right: 10px;
+    float: right;
+    position: relative;
+    background-color: #5c9b87;
+
+    .user-text-message {
+        letter-spacing: 1px;
+        padding: 2px;
+        margin: 7px;
+        color: white;
+        font-size: 13px;
+        font-weight: 300;
+    }
+}
+
+.others-text {
+    margin-right: 200px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    position: relative;
+    background-color: silver;
+
+    .others-text-message {
+        padding: 2px;
+        margin: 7px;
+        color: black;
+        font-size: 13px;
+        font-weight: 300;
+    }
+}
+
 .together {
     height: 80px;
     background: rgb(243, 247, 251);
